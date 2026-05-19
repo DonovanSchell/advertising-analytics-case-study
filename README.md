@@ -1,3 +1,6 @@
+Readme · MD
+Copy
+
 # Advertising Analytics: H2 2026 Sales Planning
 ### Risks & Opportunities | End-to-End Analytical Case Study
  
@@ -22,6 +25,53 @@ The advertising sales organization works with advertisers across multiple countr
 - Which industry verticals are growing or declining?
 - Which ad types are being underleveraged?
 - Which advertiser markets represent the greatest opportunity or risk?
+---
+ 
+## Key Insights & Recommendations
+ 
+*The executive summary below captures the two primary findings and four recommendations from this analysis. See the [full presentation](https://docs.google.com/presentation/d/1idoZZNweP3j8wKal7NhYzhr9BK8cpKCOgabo8i3MhjE/edit?usp=sharing) for the complete slide deck.*
+ 
+![Executive Summary](images/slide_02_executive_summary.png)
+ 
+---
+ 
+### Insight 1 — Retail is the Global Growth Engine (Offense)
+ 
+Retail is the largest vertical by revenue ($87.4M → $101.3M, **+16% YoY**) and is growing across every country and every ad type — a remarkably consistent signal.
+ 
+**Recommendation:** Prioritize Retail account expansion and prospecting across all markets.
+ 
+---
+ 
+### Insight 2 — Country D is an Emerging Market Hitting an Inflection Point (Offense)
+ 
+Country D is the fastest growing advertiser market at **+59% YoY**, with broad-based growth across nearly all verticals — not just one driver:
+ 
+- Retail: +68% YoY
+- Health: +472% YoY ($333K → $1.9M)
+- B2B Services: +285% YoY
+**Recommendation:** Dedicate focused sales resources to Country D before competitors do.
+ 
+![Advertiser Location](images/slide_05_advertiser_location.png)
+ 
+---
+ 
+### Insight 3 — B2C and Technology Show Search Pullback (Defense)
+ 
+B2C Services (-3%) and Technology (-2%) are declining, with Search ad spend as the primary driver of pullback. Advertiser-level analysis suggests this is concentrated in a handful of large accounts rather than broad-based churn.
+ 
+**Recommendation:** Sales teams should proactively engage B2C and Technology accounts about Search strategy before further revenue erosion.
+ 
+![Industry Verticals](images/slide_03_industry_verticals.png)
+ 
+---
+ 
+### Insight 4 — MSAN Audience is Underleveraged (Watch)
+ 
+MSAN Audience is the fastest growing ad type by rate (+9%) but has the smallest absolute gain — suggesting clients are not fully utilizing programmatic display, native, and video ad formats.
+ 
+**Recommendation:** Explore with clients why MSAN Audience receives less investment relative to its growth trajectory.
+ 
 ---
  
 ## Dataset
@@ -82,35 +132,12 @@ Insights and recommendations were packaged into a 7-minute executive presentatio
  
 ---
  
-## Key Insights & Recommendations
+## Analytical Decisions & Assumptions
  
-### Insight 1 — Retail is the Global Growth Engine (Offense)
- 
-Retail is the largest vertical by revenue ($87.4M → $101.3M, **+16% YoY**) and is growing across every country and every ad type — a remarkably consistent signal.
- 
-**Recommendation:** Prioritize Retail account expansion and prospecting across all markets.
- 
-### Insight 2 — Country D is an Emerging Market Hitting an Inflection Point (Offense)
- 
-Country D is the fastest growing advertiser market at **+59% YoY**, with broad-based growth across nearly all verticals — not just one driver:
- 
-- Retail: +68% YoY
-- Health: +472% YoY ($333K → $1.9M)
-- B2B Services: +285% YoY
-**Recommendation:** Dedicate focused sales resources to Country D before competitors do.
- 
-### Insight 3 — B2C and Technology Show Search Pullback (Defense)
- 
-B2C Services (-3%) and Technology (-2%) are declining, with Search ad spend as the primary driver of pullback. Advertiser-level analysis suggests this is concentrated in a handful of large accounts rather than broad-based churn.
- 
-**Recommendation:** Sales teams should proactively engage B2C and Technology accounts about Search strategy before further revenue erosion.
- 
-### Insight 4 — MSAN Audience is Underleveraged (Watch)
- 
-MSAN Audience is the fastest growing ad type by rate (+9%) but has the smallest absolute gain — suggesting clients are not fully utilizing programmatic display, native, and video ad formats.
- 
-**Recommendation:** Explore with clients why MSAN Audience receives less investment relative to its growth trajectory.
- 
+- **Advertiser Location over Ad Location** — selected as the primary geographic lens because it reflects where sales teams prospect and manage accounts, making it more actionable for a sales manager audience
+- **H1 2024 vs H1 2025 as YoY proxy** — used to control for seasonality when projecting H2 2026 trends
+- **Advertiser-level analysis excluded from presentation** — too granular and noisy for a 7-minute executive presentation; used internally to validate vertical-level findings
+- **Revenue reconciled to source data** — minor discrepancies between joined table and source Excel were identified and corrected to ensure accuracy of reported figures
 ---
  
 ## SQL Files
@@ -120,20 +147,6 @@ MSAN Audience is the fastest growing ad type by rate (+9%) but has the smallest 
 | `01_create_combined_table.sql` | CTE-based join of summary and breakdown tables into unified analytical table |
 | `02_analysis_queries.sql` | All YoY analysis queries with inline commentary |
  
----
- 
-## Presentation
- 
-The executive presentation (`acme_advertising_h2_2026.pdf`) walks through the above insights in a 7-minute format designed for a sales leadership audience.
- 
----
- 
-## Analytical Decisions & Assumptions
- 
-- **Advertiser Location over Ad Location** — selected as the primary geographic lens because it reflects where sales teams prospect and manage accounts, making it more actionable for a sales manager audience
-- **H1 2024 vs H1 2025 as YoY proxy** — used to control for seasonality when projecting H2 2026 trends
-- **Advertiser-level analysis excluded from presentation** — too granular and noisy for a 7-minute executive presentation; used internally to validate vertical-level findings
-- **Revenue reconciled to source data** — minor discrepancies between joined table and source Excel were identified and corrected to ensure accuracy of reported figures
 ---
  
 ## Reflections
@@ -155,6 +168,10 @@ The executive presentation (`acme_advertising_h2_2026.pdf`) walks through the ab
 ├── sql/
 │   ├── 01_create_combined_table.sql
 │   └── 02_analysis_queries.sql
+├── images/
+│   ├── slide_02_executive_summary.png
+│   ├── slide_03_industry_verticals.png
+│   └── slide_05_advertiser_location.png
 └── presentation/
     └── acme_advertising_h2_2026.pdf
 ```
