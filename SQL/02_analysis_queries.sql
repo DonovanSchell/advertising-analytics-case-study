@@ -142,10 +142,6 @@ order by "2025_revenue" desc
  * Health in Country D is extraordinary: +472% YoY is stunning. Yes it's coming off a small base, but going from $333K to $1.9M in one year warrants attention. Worth flagging as an emerging opportunity even if you caveat the small base.
  * B2B Services +285% is similarly striking for the same reason.
  * The clean narrative this gives you: Country D isn't just growing — it's growing across nearly every vertical, led by your globally strongest vertical (Retail). That makes it a much more compelling investment case than just a percentage anomaly.
- * 
- * For your presentation I'd frame it as two linked insights:
- 	* Retail is your global growth engine — prioritize across all markets
- 	* Country D represents your highest-growth emerging market — Retail is already leading there, and early signals in Health and B2B suggest broad-based expansion potential
  */
 
 
@@ -155,8 +151,6 @@ order by "2025_revenue" desc
  * Recommendation 2 — Accelerate investment in Country D: Broad-based growth across nearly all verticals — not just Retail. Suggests an emerging market hitting an inflection point. Recommend dedicating focused sales resources here before competitors do.
  * Recommendation 3 — Watch Health and B2B as emerging verticals: Particularly in Country D where growth rates are extraordinary (+472% and +285% respectively). Small base today but trajectory warrants early attention.
  * Recommendation 4 — Retention play for B2C and Technology: Especially in Countries A and B where these verticals are declining. The Search ad type appears to be where the pullback is concentrated — sales teams should be having proactive conversations with these accounts about Search strategy before the revenue erodes further.
- * 
- * One framing tip for the presentation: Structure it as offense/defense — recommendations 1 and 2 are your offensive plays (where to grow), recommendations 3 and 4 are your defensive plays (what to protect and watch). Sales managers think in those terms naturally. It'll resonate immediately.
  */
 
 
@@ -212,7 +206,6 @@ order by "Advertiser Location", "Industry Vertical"
  * 
  	* Advertiser Location = where the money comes from: This is the sales lens — which markets are your clients based in, where should sales teams focus their account management and prospecting efforts. If Country D advertisers are spending more, that's a sales territory story.
 	* Ad Location = where the audience is: This is more of a market/product lens — which geographies are seeing ad consumption grow. Useful for understanding where Acme's ad inventory is being utilized, but less directly actionable for a sales team.
- 	* For this specific audience — 2nd and 3rd level sales managers — Advertiser Location is probably more relevant. Their teams sell to advertisers, not to audiences. When a sales manager asks "where should my reps focus?", the answer is about where advertisers are, not where ads are shown.
  */
 
 
