@@ -12,6 +12,8 @@ The project demonstrates:
 - **Exploratory data analysis** — iterative querying to surface meaningful YoY trends
 - **Business insight synthesis** — translating raw findings into actionable recommendations for a sales leadership audience
 - **Data storytelling** — communicating insights through an executive-ready presentation
+
+### 📊 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/donovan.schell/viz/AdvertisingSalesRevenue_17797490324870/AdvertisingRevenueSummary)
 ---
  
 ## Business Context
@@ -30,6 +32,23 @@ The advertising sales organization works with advertisers across multiple countr
 
 <img width="960" height="540" alt="slide_02_executive_summary" src="https://github.com/user-attachments/assets/2cf9d99a-c101-4e43-998f-272e4ebfb7da" />
  
+---
+
+## Interactive Dashboard
+
+Explore the data interactively through the Tableau dashboard:
+
+**[📊 View Live Dashboard](https://public.tableau.com/app/profile/donovan.schell/viz/AdvertisingSalesRevenue_17797490324870/AdvertisingRevenueSummary)**
+
+<img width="622" height="352" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/7684754a-e58a-495b-b64b-4d1e480748dc" />
+
+The dashboard includes:
+- **Dynamic period selection** — adjust Year, Month Start, and Month End parameters to analyze custom date ranges
+- **Interactive filtering** — click on visualizations to filter all views by Ad Type, Segment, Industry Vertical and Advertiser Location
+- **Top N advertiser analysis** — adjustable slider to view top 5-20 advertisers by current period revenue
+- **Geographic revenue distribution** — interactive map showing revenue by advertiser location
+- **YoY comparison metrics** — revenue and campaign count changes with trend indicators
+
 ---
  
 ### Insight 1 — Retail is the Global Growth Engine (Offense)
